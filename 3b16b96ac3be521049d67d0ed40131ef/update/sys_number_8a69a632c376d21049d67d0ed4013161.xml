@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1105246_raas_suggestion">x_1105246_raas_suggestion</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1</number>
+        <prefix>SUG</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 18:54:57</sys_created_on>
+        <sys_id>8a69a632c376d21049d67d0ed4013161</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SUG</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_update_name>sys_number_8a69a632c376d21049d67d0ed4013161</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 18:54:57</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cd86ad32c332d21049d67d0ed4013131" label="Director" max_length="40" name="x_1105246_raas_director" type="collection">
+        <element display="true" label="Name" max_length="250" name="name" type="string"/>
+    </element>
+</database>

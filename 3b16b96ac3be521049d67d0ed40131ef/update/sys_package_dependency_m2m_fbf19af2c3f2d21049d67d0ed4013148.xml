@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">c4809368dc1212104f34465061b06a6e</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 17:12:40</sys_created_on>
+        <sys_id>fbf19af2c3f2d21049d67d0ed4013148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 17:12:40</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

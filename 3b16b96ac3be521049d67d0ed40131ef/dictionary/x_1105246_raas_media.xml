@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="df0a6176c332d21049d67d0ed4013167" label="Media" max_length="40" name="x_1105246_raas_media" type="collection">
+        <element label="Awards" max_length="250" name="awards" type="string"/>
+        <element label="Website" max_length="1000" name="website" type="url"/>
+        <element display="true" label="Title" max_length="250" name="title" type="string"/>
+        <element default="http://www.servicenow.com" label="Poster" max_length="1000" name="poster" type="url"/>
+        <element label="Language" max_length="250" name="language" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Series" sequence="2" value="s"/>
+                <element inactive_on_update="false" label="Episode" sequence="0" value="e"/>
+                <element inactive_on_update="false" label="Movie" sequence="1" value="m"/>
+            </choice>
+        </element>
+        <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
+        <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
+        <element label="Writers" max_length="4000" name="writers" type="string"/>
+        <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
+        <element default="0" label="Average Rating" max_length="40" name="average_rating" type="float"/>
+        <element label="Country" max_length="250" name="country" type="string"/>
+        <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element label="Production" max_length="250" name="production" type="string"/>
+        <element label="Genre" max_length="1024" name="genre" reference="x_1105246_raas_genre" type="glide_list"/>
+    </element>
+</database>
