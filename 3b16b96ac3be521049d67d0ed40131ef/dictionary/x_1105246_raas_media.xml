@@ -3,7 +3,7 @@
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element label="Website" max_length="1000" name="website" type="url"/>
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
-        <element default="http://www.servicenow.com" label="Poster" max_length="1000" name="poster" type="url"/>
+        <element label="Poster" max_length="1000" name="poster" type="url"/>
         <element label="Language" max_length="250" name="language" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
