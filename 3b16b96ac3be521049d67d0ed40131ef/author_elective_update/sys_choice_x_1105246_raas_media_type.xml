@@ -20,7 +20,7 @@
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Episode</label>
+            <label>Movie</label>
             <language>en</language>
             <name>x_1105246_raas_media</name>
             <sequence>0</sequence>
@@ -29,29 +29,10 @@
             <sys_created_on>2025-01-03 14:37:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-03 14:37:38</sys_updated_on>
-            <value>e</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Movie</label>
-            <language>en</language>
-            <name>x_1105246_raas_media</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-03 14:37:38</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-03 14:37:38</sys_updated_on>
-            <value>m</value>
+            <sys_updated_on>2025-01-10 16:26:36</sys_updated_on>
+            <value>movie</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -61,16 +42,35 @@
             <label>Series</label>
             <language>en</language>
             <name>x_1105246_raas_media</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 14:37:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-10 16:26:40</sys_updated_on>
+            <value>series</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Episode</label>
+            <language>en</language>
+            <name>x_1105246_raas_media</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-03 14:37:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-03 14:37:38</sys_updated_on>
-            <value>s</value>
+            <sys_updated_on>2025-01-10 16:26:42</sys_updated_on>
+            <value>episode</value>
         </sys_choice>
     </sys_choice>
 </record_update>

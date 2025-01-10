@@ -4,32 +4,39 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>poster</field>
+        <field>release_year</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Load Poster</name>
+        <name>Validate Year</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
 
-    g_form.getElement("poster_image").src = newValue;
-
+    if (!/^\d{4}$/.test(newValue)) {
+        g_form.addErrorMessage("Invalid format for Release Year");
+        g_form.setValue("release_year", "");
+    } else {
+        g_form.clearMessages();
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-08 20:03:04</sys_created_on>
+        <sys_created_on>2025-01-09 16:59:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>25986420c34b121049d67d0ed401310b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Load Poster</sys_name>
+        <sys_id>36960d30c38f521049d67d0ed401318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Year</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
-        <sys_update_name>sys_script_client_25986420c34b121049d67d0ed401310b</sys_update_name>
+        <sys_update_name>sys_script_client_36960d30c38f521049d67d0ed401318b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 19:23:15</sys_updated_on>
+        <sys_updated_on>2025-01-09 16:59:04</sys_updated_on>
         <table>x_1105246_raas_media</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -4,32 +4,41 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>poster</field>
+        <field>integration_state</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Load Poster</name>
+        <name>Show Error Message</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (newValue === '') {
+        return;
+    }
 
-    g_form.getElement("poster_image").src = newValue;
+    if (newValue == "7" || newValue == "4") {
+        g_form.addErrorMessage(g_form.getValue("integration_error_message"));
+    }
+	else {
+		g_form.clearMessages();
+	}
+
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-08 20:03:04</sys_created_on>
+        <sys_created_on>2025-01-10 18:25:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>25986420c34b121049d67d0ed401310b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Load Poster</sys_name>
+        <sys_id>1a636e01c30bd21049d67d0ed401314b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Show Error Message</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
-        <sys_update_name>sys_script_client_25986420c34b121049d67d0ed401310b</sys_update_name>
+        <sys_update_name>sys_script_client_1a636e01c30bd21049d67d0ed401314b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 19:23:15</sys_updated_on>
+        <sys_updated_on>2025-01-10 18:45:13</sys_updated_on>
         <table>x_1105246_raas_media</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -42,6 +42,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-03 15:11:06</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-10 16:50:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44001609c387d21049d67d0ed40131a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1105246_raas_media" name="x_1105246_raas_media" sys_domain="global" view="Default view">3e26b9f2c372d21049d67d0ed40131c3</sys_ui_form>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1105246_raas_media" sys_domain="global" view="Default view">44001609c387d21049d67d0ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-10 16:50:15</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1105246_raas_media</name>
             <roles/>
