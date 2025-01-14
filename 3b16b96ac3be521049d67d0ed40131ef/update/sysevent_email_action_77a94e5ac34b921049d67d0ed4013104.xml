@@ -6,8 +6,9 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="RaaS" name="RaaS">ca2c3758c347121049d67d0ed401319e</category>
-        <collection>x_1105246_raas_suggestion</collection>
-        <condition table="x_1105246_raas_suggestion">null<item endquery="false" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <collection>x_1105246_raas_media</collection>
+        <condition table="x_1105246_raas_media">integration_state=4^EQ<item display_value="Integration Failure" endquery="false" field="integration_state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -37,40 +38,38 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello ${opened_by.first_name}.</p>
-<p>Thank you for your suggestion for the ${type} ${title}, released in ${release_year}.</p>
-<p>It has been <strong>approved.</strong></p>
-<p>If you want to send more suggestions, click&nbsp;<a href="/sp?id=sc_cat_item&amp;sys_id=f30b9a46c3c7521049d67d0ed4013102&amp;sysparm_category=0b92b9b7c336921049d67d0ed401314c">here</a></p>]]></message_html>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name}</p>
+<p><span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));">The integration of the ${type} ${title} has </span><strong style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));">failed.</strong></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Suggestion Approved</name>
+        <name>Integration Failure</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields>opened_by</recipient_fields>
-        <recipient_groups/>
+        <recipient_groups name="RaaS Administrators">4797f9eac3be521049d67d0ed4013177</recipient_groups>
         <recipient_users/>
         <reply_to>raas@aoop.com.br</reply_to>
-        <send_self>false</send_self>
+        <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>${number} - ${title} - Approved</subject>
+        <subject>${title} - Integration Failed</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-13 20:58:25</sys_created_on>
+        <sys_created_on>2025-01-14 13:44:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>18e4a2c6c30b521049d67d0ed40131b2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Suggestion Approved</sys_name>
+        <sys_id>77a94e5ac34b921049d67d0ed4013104</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Integration Failure</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
-        <sys_update_name>sysevent_email_action_18e4a2c6c30b521049d67d0ed40131b2</sys_update_name>
+        <sys_update_name>sysevent_email_action_77a94e5ac34b921049d67d0ed4013104</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 13:59:05</sys_updated_on>
+        <sys_updated_on>2025-01-14 15:01:07</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

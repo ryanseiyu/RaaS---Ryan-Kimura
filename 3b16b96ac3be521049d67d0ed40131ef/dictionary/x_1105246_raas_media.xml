@@ -2,6 +2,7 @@
     <element db_object_id="df0a6176c332d21049d67d0ed4013167" label="Media" max_length="40" name="x_1105246_raas_media" type="collection">
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
+        <element label="New Dynamic Attribute Store" max_length="5000" name="u_dynamic_attribute_store_1" type="dynamic_attribute_store"/>
         <element label="Website" max_length="1000" name="website" type="url"/>
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element label="Poster" max_length="1000" name="poster" type="url"/>
@@ -30,6 +31,7 @@
                 <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
             </choice>
         </element>
+        <element default="javascript:gs.getUserID()" label="Creator" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
         <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Integration Failure" sequence="300" value="4"/>
@@ -39,5 +41,8 @@
                 <element inactive_on_update="false" label="Integration  Success" sequence="400" value="3"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="opened_by"/>
+        </index>
     </element>
 </database>
