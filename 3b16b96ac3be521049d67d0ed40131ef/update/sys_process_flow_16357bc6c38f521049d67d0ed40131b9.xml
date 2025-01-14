@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1105246_raas_suggestion">state=8^EQ<item display_value="Awaiting Administrator's Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Awaiting Administrator's Approval</label>
+        <name>Awaiting Administrator's Approval</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 02:46:27</sys_created_on>
+        <sys_id>16357bc6c38f521049d67d0ed40131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awaiting Administrator's Approval</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_update_name>sys_process_flow_16357bc6c38f521049d67d0ed40131b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 02:46:27</sys_updated_on>
+        <table>x_1105246_raas_suggestion</table>
+    </sys_process_flow>
+</record_update>

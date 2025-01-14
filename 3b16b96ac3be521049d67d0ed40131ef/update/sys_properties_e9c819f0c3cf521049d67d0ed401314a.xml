@@ -12,16 +12,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 18:10:29</sys_created_on>
         <sys_id>e9c819f0c3cf521049d67d0ed401314a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_1105246_raas.integration_retry_timeout</sys_name>
         <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
         <sys_update_name>sys_properties_e9c819f0c3cf521049d67d0ed401314a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 18:52:11</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:21:22</sys_updated_on>
         <type>integer</type>
-        <value>300</value>
+        <value>5</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=e9c819f0c3cf521049d67d0ed401314a"/>

@@ -2,7 +2,15 @@
     <element db_object_id="39696632c376d21049d67d0ed4013194" extends="task" label="Suggestion" max_length="40" name="x_1105246_raas_suggestion" type="collection">
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
         <element label="Title" max_length="250" name="title" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Movie" sequence="0" value="movie"/>
+                <element inactive="true" inactive_on_update="true" label="Episode" sequence="2" value="episode"/>
+                <element inactive_on_update="false" label="Series" sequence="1" value="series"/>
+            </choice>
+        </element>
         <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element label="Media" max_length="32" name="media" reference="x_1105246_raas_media" type="reference"/>
+        <element label="Creator" max_length="40" name="creator" type="string"/>
     </element>
 </database>

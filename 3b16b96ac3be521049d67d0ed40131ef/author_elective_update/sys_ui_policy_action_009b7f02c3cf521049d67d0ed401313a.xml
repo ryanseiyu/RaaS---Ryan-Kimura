@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>state</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 03:14:08</sys_created_on>
+        <sys_id>009b7f02c3cf521049d67d0ed401313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_update_name>sys_ui_policy_action_009b7f02c3cf521049d67d0ed401313a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 03:14:08</sys_updated_on>
+        <table>x_1105246_raas_suggestion</table>
+        <ui_policy display_value="Suggestion Fields - read only">5ffab302c3cf521049d67d0ed4013162</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=009b7f02c3cf521049d67d0ed401313a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</application>
+        <file_path/>
+        <instance_id>00e1f12c1b7e7950c84543f4bd4bcb85</instance_id>
+        <instance_name>dev225101</instance_name>
+        <name>sys_ui_policy_action_009b7f02c3cf521049d67d0ed401313a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>state</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 03:14:08</sys_created_on><sys_id>009b7f02c3cf521049d67d0ed401313a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>state</sys_name><sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package><sys_policy/><sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope><sys_update_name>sys_ui_policy_action_009b7f02c3cf521049d67d0ed401313a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 03:14:08</sys_updated_on><table>x_1105246_raas_suggestion</table><ui_policy display_value="Suggestion Fields - read only">5ffab302c3cf521049d67d0ed4013162</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=009b7f02c3cf521049d67d0ed401313a"/></record_update>]]></payload>
+        <payload_hash>1527018140</payload_hash>
+        <record_name>state</record_name>
+        <reverted_from/>
+        <source>38c9fc33c3ba521049d67d0ed40131ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 03:14:08</sys_created_on>
+        <sys_id>009b7f02c3cf521049d67d0ed401313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19462cde7230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 03:14:08</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>049b7f0251cf52105b6f77f858334e3c</update_guid>
+        <update_guid_history>049b7f0251cf52105b6f77f858334e3c:1527018140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 03:21:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0cd4307ae2dc4dba9064c6d649a8e324</sys_id>
+        <sys_metadata>009b7f02c3cf521049d67d0ed401313a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_scope_delete display_value="">851a02cd0bc14ff6a2c2ad21282c8f79</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_009b7f02c3cf521049d67d0ed401313a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_009b7f02c3cf521049d67d0ed401313a">009b7f02c3cf521049d67d0ed401313d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 03:21:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

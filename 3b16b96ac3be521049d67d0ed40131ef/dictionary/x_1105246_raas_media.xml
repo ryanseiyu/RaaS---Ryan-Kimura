@@ -9,7 +9,7 @@
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Series" sequence="1" value="series"/>
-                <element inactive_on_update="false" label="Episode" sequence="2" value="episode"/>
+                <element inactive="true" inactive_on_update="true" label="Episode" sequence="2" value="episode"/>
                 <element inactive_on_update="false" label="Movie" sequence="0" value="movie"/>
             </choice>
         </element>
