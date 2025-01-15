@@ -37,7 +37,7 @@
         <read_roles/>
         <reference display_value="" name="x_1105246_raas_media">x_1105246_raas_media</reference>
         <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
+        <reference_floats>true</reference_floats>
         <reference_key/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
         <sys_update_name>sys_dictionary_x_1105246_raas_m2m_actor_media_x_1105246_raas_media</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-03 20:32:09</sys_updated_on>
+        <sys_updated_on>2025-01-15 14:46:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

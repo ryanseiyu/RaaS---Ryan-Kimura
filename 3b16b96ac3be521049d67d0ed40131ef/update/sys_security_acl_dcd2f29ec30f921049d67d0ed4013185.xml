@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
-        <admin_overrides>true</admin_overrides>
+        <admin_overrides>false</admin_overrides>
         <advanced>false</advanced>
         <applies_to/>
-        <condition/>
+        <condition table="x_1105246_raas_m2m_director_media">x_1105246_raas_media.state!=3^x_1105246_raas_media.integration_stateNOT IN4,7^EQ<item display_value="Completed" endquery="false" field="x_1105246_raas_media.state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
+            <item display_value="4,7" endquery="false" field="x_1105246_raas_media.integration_state" goto="false" newquery="false" operator="NOT IN" or="false" value="4,7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <decision_type>allow</decision_type>
-        <description/>
+        <description>Allow create for records in x_1105246_raas_m2m_director_media, for users with roles (x_1105246_raas.moderator, x_1105246_raas.administrator), and if the ACL condition (x_1105246_raas_media.state!=3^x_1105246_raas_media.integration_stateNOT IN4,7^EQ) evaluates to true.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1105246_raas_m2m_director_media</name>
         <operation display_value="create">create</operation>
@@ -16,14 +19,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-14 16:35:32</sys_created_on>
         <sys_id>dcd2f29ec30f921049d67d0ed4013185</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_1105246_raas_m2m_director_media</sys_name>
         <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
         <sys_update_name>sys_security_acl_dcd2f29ec30f921049d67d0ed4013185</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 16:35:32</sys_updated_on>
+        <sys_updated_on>2025-01-15 14:33:08</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

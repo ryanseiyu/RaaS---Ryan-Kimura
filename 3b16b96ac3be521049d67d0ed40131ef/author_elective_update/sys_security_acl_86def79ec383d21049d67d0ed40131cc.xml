@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow create for records in x_1105246_raas_m2m_actor_media, for users with roles (x_1105246_raas.moderator, x_1105246_raas.administrator).</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1105246_raas_m2m_actor_media</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 22:06:58</sys_created_on>
+        <sys_id>86def79ec383d21049d67d0ed40131cc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1105246_raas_m2m_actor_media</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_update_name>sys_security_acl_86def79ec383d21049d67d0ed40131cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 22:13:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="DELETE">
+        <id>86def79ec383d21049d67d0ed40131cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 22:10:14</sys_created_on>
+        <sys_id>4a9f3b52c3c3d21049d67d0ed401319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 22:10:14</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</application>
+        <file_path/>
+        <instance_id>00e1f12c1b7e7950c84543f4bd4bcb85</instance_id>
+        <instance_name>dev225101</instance_name>
+        <name>sys_security_acl_86def79ec383d21049d67d0ed40131cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Allow create for records in x_1105246_raas_m2m_actor_media, for users with roles (x_1105246_raas.moderator, x_1105246_raas.administrator).</description><local_or_existing>Local</local_or_existing><name>x_1105246_raas_m2m_actor_media</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 22:06:58</sys_created_on><sys_id>86def79ec383d21049d67d0ed40131cc</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_1105246_raas_m2m_actor_media</sys_name><sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package><sys_policy/><sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope><sys_update_name>sys_security_acl_86def79ec383d21049d67d0ed40131cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 22:13:19</sys_updated_on><type display_value="record">record</type></sys_security_acl><sys_es_latest_script action="INSERT_OR_UPDATE"><id>86def79ec383d21049d67d0ed40131cc</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 22:10:14</sys_created_on><sys_id>4a9f3b52c3c3d21049d67d0ed401319c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 22:10:14</sys_updated_on><table>sys_security_acl</table><use_es_latest>true</use_es_latest></sys_es_latest_script></record_update>]]></payload>
+        <payload_hash>-662464379</payload_hash>
+        <record_name>x_1105246_raas_m2m_actor_media</record_name>
+        <reverted_from/>
+        <source>38c9fc33c3ba521049d67d0ed40131ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 22:13:19</sys_created_on>
+        <sys_id>0f404ca2c3c3d21049d67d0ed401310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19466e0d92e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 22:13:19</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>83404ca2a9c3d210fcecef295e8b710b</update_guid>
+        <update_guid_history>83404ca2a9c3d210fcecef295e8b710b:-662464379,d00084a246c3d2108d788f480d1285f4:1403437806,49dfb39227c3d2104360894a9d491718:-662464379,86def79ec583d210199fb839268c16cf:1262592077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 22:33:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3d37cf0992f6479790291e4196a310e1</sys_id>
+        <sys_metadata>86def79ec383d21049d67d0ed40131cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1105246_raas_m2m_actor_media</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_parent display_value="x_1105246_raas_m2m_actor_media">35afbe7ac3b6d21049d67d0ed4013167</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_scope_delete display_value="">851a02cd0bc14ff6a2c2ad21282c8f79</sys_scope_delete>
+        <sys_update_name>sys_security_acl_86def79ec383d21049d67d0ed40131cc</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_86def79ec383d21049d67d0ed40131cc">0f404ca2c3c3d21049d67d0ed401310b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 22:33:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

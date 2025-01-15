@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:43:22</sys_created_on>
+        <sys_id>896be716c343d21049d67d0ed40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1105246_raas_media.x_1105246_raas.administrator</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_security_acl display_value="x_1105246_raas_media">013bef16c343d21049d67d0ed4013185</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_896be716c343d21049d67d0ed40131f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:43:22</sys_updated_on>
+        <sys_user_role display_value="x_1105246_raas.administrator" name="x_1105246_raas.administrator">0026f96ac3be521049d67d0ed401313f</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</application>
+        <file_path/>
+        <instance_id>00e1f12c1b7e7950c84543f4bd4bcb85</instance_id>
+        <instance_name>dev225101</instance_name>
+        <name>sys_security_acl_role_896be716c343d21049d67d0ed40131f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 20:43:22</sys_created_on><sys_id>896be716c343d21049d67d0ed40131f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1105246_raas_media.x_1105246_raas.administrator</sys_name><sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package><sys_policy/><sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope><sys_security_acl display_value="x_1105246_raas_media">013bef16c343d21049d67d0ed4013185</sys_security_acl><sys_update_name>sys_security_acl_role_896be716c343d21049d67d0ed40131f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 20:43:22</sys_updated_on><sys_user_role display_value="x_1105246_raas.administrator" name="x_1105246_raas.administrator">0026f96ac3be521049d67d0ed401313f</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>876111925</payload_hash>
+        <record_name>x_1105246_raas_media.x_1105246_raas.administrator</record_name>
+        <reverted_from/>
+        <source>38c9fc33c3ba521049d67d0ed40131ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:43:23</sys_created_on>
+        <sys_id>f1bb6356c343d21049d67d0ed40131cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194668e82220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:43:23</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e5bb6356d643d21090767dcce6a351ce</update_guid>
+        <update_guid_history>e5bb6356d643d21090767dcce6a351ce:876111925</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1105246_raas_media.x_1105246_raas.administrator">c23fa7dac343d21049d67d0ed4013187</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:58:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0aea88b019ba45f080a05926f5862c40</sys_id>
+        <sys_metadata>896be716c343d21049d67d0ed40131f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1105246_raas_media.x_1105246_raas.administrator</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_scope_delete display_value="">851a02cd0bc14ff6a2c2ad21282c8f79</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_896be716c343d21049d67d0ed40131f9</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_896be716c343d21049d67d0ed40131f9">f1bb6356c343d21049d67d0ed40131cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:58:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
