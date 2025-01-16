@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Rating">6c2d758cc3c7d21049d67d0ed4013184</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 13:17:41</sys_created_on>
+        <sys_id>58824eccc3c7d21049d67d0ed4013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_update_name>question_choice_58824eccc3c7d21049d67d0ed4013118</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 13:17:41</sys_updated_on>
+        <text>2</text>
+        <value>2</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=58824eccc3c7d21049d67d0ed4013118"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</application>
+        <file_path/>
+        <instance_id>00e1f12c1b7e7950c84543f4bd4bcb85</instance_id>
+        <instance_name>dev225101</instance_name>
+        <name>question_choice_58824eccc3c7d21049d67d0ed4013118</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="Rating">6c2d758cc3c7d21049d67d0ed4013184</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-07 13:17:41</sys_created_on><sys_id>58824eccc3c7d21049d67d0ed4013118</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package><sys_policy/><sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope><sys_update_name>question_choice_58824eccc3c7d21049d67d0ed4013118</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-07 13:17:41</sys_updated_on><text>2</text><value>2</value></question_choice><fx_price action="delete_multiple" query="id=58824eccc3c7d21049d67d0ed4013118"/></record_update>]]></payload>
+        <payload_hash>1051209173</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>38c9fc33c3ba521049d67d0ed40131ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 13:17:41</sys_created_on>
+        <sys_id>3492ce04c30bd21049d67d0ed40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19440e9f3bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 13:17:41</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>3892ce04810bd210b528304ae399cceb</update_guid>
+        <update_guid_history>3892ce04810bd210b528304ae399cceb:1051209173</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">5c038a44c30bd21049d67d0ed4013199</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 13:19:34</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>2e73ee00cfa24ce98913c65940dacd81</sys_id>
+        <sys_metadata>58824eccc3c7d21049d67d0ed4013118</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_parent display_value="Rating">6c2d758cc3c7d21049d67d0ed4013184</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_scope_delete display_value="">851a02cd0bc14ff6a2c2ad21282c8f79</sys_scope_delete>
+        <sys_update_name>question_choice_58824eccc3c7d21049d67d0ed4013118</sys_update_name>
+        <sys_update_version display_value="question_choice_58824eccc3c7d21049d67d0ed4013118">3492ce04c30bd21049d67d0ed40131ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 13:19:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

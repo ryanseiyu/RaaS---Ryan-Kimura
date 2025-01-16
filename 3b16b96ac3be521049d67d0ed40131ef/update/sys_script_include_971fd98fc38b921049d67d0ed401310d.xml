@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1105246_raas.RaaSUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>RaaSUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var RaaSUtils = Class.create();
+RaaSUtils.prototype = {
+    initialize: function() {
+    },
+	refQualMedia: function() {
+		var moviesNotToBeShown = []	;
+
+		var grReview = new GlideRecord("x_1105246_raas_review");
+			grReview.addQuery("opened_by", gs.getUserID());
+			grReview.addQuery("state", "!=", "4");
+			grReview.query();
+			while(!grReview.next()) {
+				// Filme não deve ser exibido
+				moviesNotToBeShown.push(grReview.media.sys_id.toString());
+			}
+		var moviesToBeShown = [];
+		var grMedias = new GlideRecord("x_1105246_raas_media");
+		grMedias.addQuery("state", "3");
+		grMedias.query();
+
+		while(grMedias.next()) {
+			if(moviesNotToBeShown.indexOf(grMedias.getUniqueValue()) == -1) {
+				moviesToBeShown.push(grMedias.getUniqueValue());
+			}
+		}
+
+		return "sys_idIN" + moviesToBeShown.join(",");
+	},
+    type: 'RaaSUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 18:44:58</sys_created_on>
+        <sys_id>971fd98fc38b921049d67d0ed401310d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>RaaSUtils</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_update_name>sys_script_include_971fd98fc38b921049d67d0ed401310d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 19:33:03</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>971fd98fc38b921049d67d0ed401310d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 18:44:58</sys_created_on>
+        <sys_id>6ac36507c3cb921049d67d0ed4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 18:44:58</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
