@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>create__update_actors</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Create / Update Actors</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 20:58:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5c88bcdc38bd21049d67d0ed4013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create / Update Actors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_e5c88bcdc38bd21049d67d0ed4013101</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 20:58:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_variable_value action="DELETE" query="document_key=e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_hub_step_instance action="DELETE" query="action=e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_hub_action_input action="DELETE" query="model=e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_hub_action_output action="DELETE" query="model=e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=e5c88bcdc38bd21049d67d0ed4013101"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</application>
+        <file_path/>
+        <instance_id>00e1f12c1b7e7950c84543f4bd4bcb85</instance_id>
+        <instance_name>dev225101</instance_name>
+        <name>sys_hub_action_type_definition_e5c88bcdc38bd21049d67d0ed4013101</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><attributes>{labelCacheCleanUpExecuted=true}</attributes><authored_on_release_version>26000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><flow_priority/><ih_action>false</ih_action><internal_name>create__update_actors</internal_name><label_cache/><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Create / Update Actors</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-10 20:58:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e5c88bcdc38bd21049d67d0ed4013101</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create / Update Actors</sys_name><sys_overrides/><sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package><sys_policy/><sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope><sys_update_name>sys_hub_action_type_definition_e5c88bcdc38bd21049d67d0ed4013101</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-10 20:58:19</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=e5c88bcdc38bd21049d67d0ed4013101"/><sys_variable_value action="delete_multiple" query="document_key=e5c88bcdc38bd21049d67d0ed4013101"/><sys_hub_step_instance action="delete_multiple" query="action=e5c88bcdc38bd21049d67d0ed4013101"/><sys_hub_action_input action="delete_multiple" query="model=e5c88bcdc38bd21049d67d0ed4013101"/><sys_hub_action_output action="delete_multiple" query="model=e5c88bcdc38bd21049d67d0ed4013101"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=e5c88bcdc38bd21049d67d0ed4013101"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=e5c88bcdc38bd21049d67d0ed4013101"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e5c88bcdc38bd21049d67d0ed4013101"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e5c88bcdc38bd21049d67d0ed4013101"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e5c88bcdc38bd21049d67d0ed4013101"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_e5c88bcdc38bd21049d67d0ed4013101"/><sys_hub_action_plan action="delete_multiple" query="action_id=e5c88bcdc38bd21049d67d0ed4013101"/></record_update>]]></payload>
+        <payload_hash>1675856913</payload_hash>
+        <record_name>Create / Update Actors</record_name>
+        <reverted_from/>
+        <source>38c9fc33c3ba521049d67d0ed40131ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-10 20:58:19</sys_created_on>
+        <sys_id>69c84b41c3cbd21049d67d0ed4013174</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1945202bfa30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 20:58:19</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>6dc84b4130cbd210e991f43ae720c173</update_guid>
+        <update_guid_history>6dc84b4130cbd210e991f43ae720c173:1675856913</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-18 04:08:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>0634ad34ee9348f89a0e515832d52b99</sys_id>
+        <sys_metadata>e5c88bcdc38bd21049d67d0ed4013101</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create / Update Actors</sys_name>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_scope_delete display_value="">851a02cd0bc14ff6a2c2ad21282c8f79</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_e5c88bcdc38bd21049d67d0ed4013101</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_e5c88bcdc38bd21049d67d0ed4013101">69c84b41c3cbd21049d67d0ed4013174</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-18 04:08:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

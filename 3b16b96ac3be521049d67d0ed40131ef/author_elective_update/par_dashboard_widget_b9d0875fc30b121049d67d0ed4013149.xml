@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">35046e57c387121049d67d0ed40131bc</canvas>
+        <component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"clean","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"bar","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Metric","sourceType":"table","tableOrViewName":"metric_instance","filterQuery":"table=x_1105246_raas_review","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVtZXRyaWNfaW5zdGFuY2UxNzM3MTQ0MTAzMzMx","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGVtZXRyaWNfaW5zdGFuY2UxNzM3MTQ0MTAzMzMx","id":"ZEdGaWJHVnRaWFJ5YVdOZmFXNXpkR0Z1WTJVeE56TTNNVFEwTVRBek16TXgxNzM3MTQ0MTA0Nzkz","aggregateFunction":"AVG","axisId":"primary","aggregateField":"duration","durationFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGVtZXRyaWNfaW5zdGFuY2UxNzM3MTQ0MTAzMzMx","groupByField":"value","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVnRaWFJ5YVdOZmFXNXpkR0Z1WTJVeE56TTNNVFEwTVRBek16TXgxNzM3MTQ0MTA0Nzkz"}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"8zs781dn","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"metrics","value":[{"dataSource":"dGFibGVtZXRyaWNfaW5zdGFuY2UxNzM3MTQ0MTAzMzMx","id":"ZEdGaWJHVnRaWFJ5YVdOZmFXNXpkR0Z1WTJVeE56TTNNVFEwTVRBek16TXgxNzM3MTQ0MTA0Nzkz","aggregateFunction":"AVG","axisId":"primary","aggregateField":"duration","durationFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label"}</component_props>
+        <h>15</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 20:09:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b9d0875fc30b121049d67d0ed4013149</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_update_name>par_dashboard_widget_b9d0875fc30b121049d67d0ed4013149</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 20:09:58</sys_updated_on>
+        <visualization/>
+        <w>15</w>
+        <widget_props/>
+        <x>0</x>
+        <y>14</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</application>
+        <file_path/>
+        <instance_id>00e1f12c1b7e7950c84543f4bd4bcb85</instance_id>
+        <instance_name>dev225101</instance_name>
+        <name>par_dashboard_widget_b9d0875fc30b121049d67d0ed4013149</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">35046e57c387121049d67d0ed40131bc</canvas><component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"clean","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"bar","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Metric","sourceType":"table","tableOrViewName":"metric_instance","filterQuery":"table=x_1105246_raas_review","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVtZXRyaWNfaW5zdGFuY2UxNzM3MTQ0MTAzMzMx","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGVtZXRyaWNfaW5zdGFuY2UxNzM3MTQ0MTAzMzMx","id":"ZEdGaWJHVnRaWFJ5YVdOZmFXNXpkR0Z1WTJVeE56TTNNVFEwTVRBek16TXgxNzM3MTQ0MTA0Nzkz","aggregateFunction":"AVG","axisId":"primary","aggregateField":"duration","durationFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGVtZXRyaWNfaW5zdGFuY2UxNzM3MTQ0MTAzMzMx","groupByField":"value","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVnRaWFJ5YVdOZmFXNXpkR0Z1WTJVeE56TTNNVFEwTVRBek16TXgxNzM3MTQ0MTA0Nzkz"}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"8zs781dn","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"metrics","value":[{"dataSource":"dGFibGVtZXRyaWNfaW5zdGFuY2UxNzM3MTQ0MTAzMzMx","id":"ZEdGaWJHVnRaWFJ5YVdOZmFXNXpkR0Z1WTJVeE56TTNNVFEwTVRBek16TXgxNzM3MTQ0MTA0Nzkz","aggregateFunction":"AVG","axisId":"primary","aggregateField":"duration","durationFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label"}</component_props><h>15</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 20:09:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9d0875fc30b121049d67d0ed4013149</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package><sys_policy/><sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope><sys_update_name>par_dashboard_widget_b9d0875fc30b121049d67d0ed4013149</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 20:09:58</sys_updated_on><visualization/><w>15</w><widget_props/><x>0</x><y>14</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1768260146</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>38c9fc33c3ba521049d67d0ed40131ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 20:09:58</sys_created_on>
+        <sys_id>b9d0875fc30b121049d67d0ed401314b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19475e301820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 20:09:58</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>bdd0875fb60b12104485e93b2937f14a</update_guid>
+        <update_guid_history>bdd0875fb60b12104485e93b2937f14a:1768260146</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9a96c757c34b121049d67d0ed401318a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 20:35:08</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>896f2ac5bb534ff28f5841f1329958f1</sys_id>
+        <sys_metadata>b9d0875fc30b121049d67d0ed4013149</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RaaS - Ryan" source="x_1105246_raas">3b16b96ac3be521049d67d0ed40131ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ryan">3b16b96ac3be521049d67d0ed40131ef</sys_scope>
+        <sys_scope_delete display_value="">851a02cd0bc14ff6a2c2ad21282c8f79</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_b9d0875fc30b121049d67d0ed4013149</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_b9d0875fc30b121049d67d0ed4013149">b9d0875fc30b121049d67d0ed401314b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 20:35:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
